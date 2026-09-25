@@ -1,0 +1,531 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Buat struktur proyek dan file dasar": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330459117
+      },
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330480939
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331292739
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331309901
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331393871
+      }
+    ],
+    "2.1 Tulis fungsi `validateTransaction(formData)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330461100
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331292940
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331403515
+      },
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331748146
+      },
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331775222
+      }
+    ],
+    "3.1 Tulis fungsi `loadTransactions()` dan `saveTransactions(transactions)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330461360
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331293043
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331409638
+      },
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331749144
+      },
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331775577
+      }
+    ],
+    "4.1 Tulis fungsi `calculateBalance(transactions)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330461803
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331293143
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331409891
+      },
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331749607
+      },
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331776342
+      }
+    ],
+    "4.3 Tulis fungsi `calculateCategoryStats(transactions)` dan `generateUniqueColors(count)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330461944
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331293261
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331410637
+      },
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331750550
+      },
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331776790
+      }
+    ],
+    "5. Checkpoint — Pastikan semua tests logic layer lulus": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330462155
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331293424
+      },
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331791976
+      }
+    ],
+    "6.1 Tulis fungsi `sortTransactions(transactions, mode)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330462428
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331293523
+      },
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331792854
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332201523
+      }
+    ],
+    "7.1 Tulis fungsi `renderBalance(transactions)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330462557
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331293614
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332231246
+      }
+    ],
+    "8.1 Tulis fungsi `renderTransactionList(transactions, sortMode)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330462701
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331293705
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332231829
+      }
+    ],
+    "9.1 Tulis fungsi `renderChart(transactions)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330463105
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331293794
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332232686
+      }
+    ],
+    "10.1 Tulis fungsi `handleFormSubmit(event)`, `clearForm()`, dan `showFormErrors(errors)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330463293
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331293891
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332233362
+      }
+    ],
+    "11.1 Tulis fungsi `addTransaction(formData)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330463463
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331294020
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332233767
+      }
+    ],
+    "11.3 Tulis fungsi `deleteTransaction(id)` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330463821
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331294181
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332234511
+      }
+    ],
+    "12.1 Tulis fungsi `renderAll()` dan `initApp()` di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330463984
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331294289
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332235283
+      }
+    ],
+    "13.1 Tulis `css/style.css` lengkap": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330464210
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331294377
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332235914
+      }
+    ],
+    "14.1 Tambahkan elemen kontrol sort ke `index.html` dan handler di `js/app.js`": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330464405
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331294464
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332236599
+      }
+    ],
+    "15. Checkpoint akhir — Pastikan semua tests lulus dan app berfungsi": [
+      {
+        "executionId": "aec4e528-68f4-42b8-abba-db8ce9c5598e",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790330464537
+      },
+      {
+        "executionId": "65023462-c87e-4d4f-b5e1-9aaaf5e7ead5",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331294552
+      },
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332246384
+      }
+    ],
+    "2. Implementasi Validator": [
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331775376
+      }
+    ],
+    "3. Implementasi Storage Module": [
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331775742
+      }
+    ],
+    "4. Implementasi kalkulasi Balance dan Chart stats": [
+      {
+        "executionId": "13d387fa-9b06-4fcb-a778-1326fa23d88c",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790331777087
+      }
+    ],
+    "6. Implementasi fungsi pengurutan": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332201767
+      }
+    ],
+    "7. Implementasi Renderer — Balance Display": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332231365
+      }
+    ],
+    "8. Implementasi Renderer — Transaction List": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332231985
+      }
+    ],
+    "9. Implementasi Renderer — Chart": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332232808
+      }
+    ],
+    "10. Implementasi Input Form Handler": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332233608
+      }
+    ],
+    "11. Implementasi App Controller — addTransaction dan deleteTransaction": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332234725
+      }
+    ],
+    "12. Implementasi App Controller — initApp dan renderAll": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332235432
+      }
+    ],
+    "13. Implementasi CSS — Styling dan Responsif": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332236103
+      }
+    ],
+    "14. Tambahkan kontrol pengurutan ke UI": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332236831
+      }
+    ],
+    "2.2 Tulis property test untuk Validator (Property 1 & 2)": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332264036
+      }
+    ],
+    "2.3 Tulis unit test untuk Validator": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332264601
+      }
+    ],
+    "3.2 Tulis property test untuk Storage round-trip (Property 10)": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332266380
+      }
+    ],
+    "3.3 Tulis unit test untuk Storage Module": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332266726
+      }
+    ],
+    "4.2 Tulis property test untuk Balance (Property 7)": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332266948
+      }
+    ],
+    "4.4 Tulis property test untuk Chart stats (Property 8 & 9)": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332267545
+      }
+    ],
+    "6.2 Tulis property test untuk pengurutan (Property 4, 11, 12)": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332268391
+      }
+    ],
+    "7.2 Tulis unit test untuk renderBalance": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332268968
+      }
+    ],
+    "8.2 Tulis property test untuk item tombol hapus (Property 5)": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332269341
+      }
+    ],
+    "8.3 Tulis unit test untuk renderTransactionList": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332270288
+      }
+    ],
+    "9.2 Tulis unit test untuk renderChart": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332271035
+      }
+    ],
+    "11.2 Tulis property test untuk addTransaction (Property 3)": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332271822
+      }
+    ],
+    "11.4 Tulis property test untuk deleteTransaction (Property 6)": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332272242
+      }
+    ],
+    "12.2 Tulis unit test App Controller integration flow": [
+      {
+        "executionId": "90403fd8-2ce0-4d10-bbfc-57b126831777",
+        "chatSessionId": "sess_49cb60e4-2333-4f4d-b8ae-9982c4123dd2",
+        "timestamp": 1790332272774
+      }
+    ]
+  }
+}
